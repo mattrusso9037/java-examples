@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         SquareFactory factory = new SquareFactory();
 
+        System.out.println(factory);
         Square square = new Square(25,25);
         System.out.println(square.getHeight());
     }
