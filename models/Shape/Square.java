@@ -9,7 +9,8 @@ public class Square extends AbstractShape {
      * Return the area using the area of a square formula
      */
     public double getArea() {
-        return -1;
+        Double area = Math.pow(this.getHeight(), 2);
+        return area;
     }
 }
  
