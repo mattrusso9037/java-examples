@@ -13,9 +13,8 @@ public class Circle extends AbstractShape {
         super(height, width);
     }
   
-public void CircleRadius(double height, double width, double radius) {
-    this.height = height;
-    this.width = width;
+public Circle(double height, double width, double radius) {
+    super(height, width);
     this.radius = radius;
         
 }
