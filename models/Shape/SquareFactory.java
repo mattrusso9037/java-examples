@@ -1,15 +1,17 @@
 package models.Shape;
 
-final public class SquareFactory {
-    public double height;
-    public double width;
-    public double area ;
+//SquareFactory class that outputs to the user 25 random heights, widths, and area for a square
+final public class SquareFactory{
+    double height;
+    double width;
+    double area;
 
     public SquareFactory() {
     
-     for(int i = 0; i < 25; i++) {
-         height =  Math.random() * 50;
-         width =  Math.random() * 50;
+     for(int i = 0; i < 25; i++){
+
+        height =  Math.random() * 100;
+        width =  Math.random() * 100;
         area = Math.pow(height,2);
         
         System.out.println("\nHeight: "); 
@@ -23,11 +25,5 @@ final public class SquareFactory {
 
     }
 
-    public double getHeight() {
-        return height;
-    }
-
-    public double getWidth() {
-        return width;
-    }
+    
 }
